@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.header {
+  background-color: #010101;
+  color: antiquewhite;
+  padding: 10px;
+  text-align: center;
+  height: auto;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.8);
+}
+.head-text {
+  display: flex;
+  justify-content: space-around;
+}
+#star {
+  color: rgb(201, 156, 7);
+  font-size: 14px;
+}
+#toph {
+  font-size: 14px;
+}
+#textT {
+  font-size: 12px;
+  color: rgb(165, 53, 13);
+}
+
+#para {
+  margin-top: 10px;
+  font-size: 10px;
+  text-align: center;
+}
+button {
+  margin-top: 5px;
+  border: none;
+  padding: 5px;
+  background-color: rgb(163, 83, 9);
+  color: beige;
+  border-radius: 5px;
+}
+.bold {
+  font-size: 14px;
+  font-weight: bolder;
+}
+.latest {
+  margin-top: 10px;
+  font-size: 10px;
+  opacity: 0.5;
+}
+.heads-main {
+  width: 40%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+@media screen and (max-width: 478px) {
+  .head-text {
+    flex-direction: column;
+    line-height: 40px;
+  }
+}
+.card #battery {
+  background-color: yellow;
+}
+.card #star {
+  background-color: #010101;
+  padding: 5px;
+}
+/* hero start */
+.hero {
+  text-align: center;
+  background-color: aliceblue;
+  padding: 10px;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+.hero h3 {
+  text-align: center;
+  margin-top: 10px;
+}
+.row1 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 30px 30px;
+  margin-top: 5px;
+}
+.row1 > .card {
+  height: auto;
+  text-align: center;
+}
+.card img {
+  width: 30px;
+  height: auto;
+}
+
+.card p {
+  font-size: 12px;
+  margin-top: 8px;
+}
+@media screen and (max-width: 666px) {
+  .row1 {
+    grid-template-columns: auto auto;
+  }
+}
+.save-time {
+  text-align: center;
+  background-color: lightgrey;
+  padding: 10px;
+}
